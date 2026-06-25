@@ -43,7 +43,7 @@ Experiments on three public datasets show that BEAT improves zero-shot recommend
 - PyTorch 2.0+
 - CUDA 11.8+ (for GPU support)
 - 8GB+ GPU memory (16GB+ recommended for training)
-
+The code can run on computing hardware BI-V150. When running on BI-V150 or other GPU/NPU environments, pleaseensure that the corresponding PyTorch runtime, device driver, and acceleration toolkit are correcty configured.
 ### Setup
 
 1. Clone the repository:
